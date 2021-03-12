@@ -15,6 +15,8 @@ html,body {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 0;
+  margin: 0;
 }
 
 h1{
@@ -32,7 +34,7 @@ textarea{
   width: 100%;
 }
 
-button {
+button, a.btn {
   cursor: pointer;
   margin-top: 32px;
   min-width: 210px;
@@ -49,6 +51,7 @@ button {
   box-sizing: border-box;
   position: relative;
   transition: 200ms ease-in-out;
+  text-decoration: none;
 }
 
 .container {
@@ -64,6 +67,10 @@ button {
 
 .clipboard{
   background-image: linear-gradient(284deg, #1cc7d0, #2dde98);
+}
+
+.restart{
+  background-image: linear-gradient(284deg, #00aeff, #3369e7);
 }
 
 .success-encrypted {
@@ -84,4 +91,8 @@ button {
 .send {
   text-align: center;
   color: white; 
+}
+
+.logo {
+
 }
